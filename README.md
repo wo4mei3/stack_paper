@@ -49,15 +49,19 @@ A type system for stack-based memory management
 この論文およびリポジトリの内容は Creative Commons Attribution 4.0 International (CC BY 4.0) の下で提供されます。詳しくは `LICENSE` を参照してください。
 
 # 更新履歴
-first commitからcommit b5f90f6まで
+## first commitからcommit b5f90f6まで
 p.2.の∆, ρを∆, pに修正
+
 p.4.のT-App,T-AssignのΣの並びを修正
+
 p.4.のStack TypingのT-Stack1の定義を次のように修正
 before:
 ∅; ∅ ⊢ ∅
 after:
 ∅⊢∅
+
 p.5.のPFPV ((•, l)) = {•}をPFPV ((•, l)) = ∅に修正
+
 p.6.の記述を次のように変更
 before:
 ```
